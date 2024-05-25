@@ -1,3 +1,9 @@
+// -- Directions
+// Given a string, return a new string with the reversed order of characters
+// --- Examples
+// reverse('hi') === 'ih'
+// reverse('hello') === olleh'
+
 //function reverse(str) {
 //    let reversed = ''
 //    
@@ -12,11 +18,8 @@
 
 
 function reverse(str) {
-    const strToArray = str.split('')
-    
-    strToArray.reverse()
-    
-    return strToArray.join('')
+
+    return str.split('').reverse().join('');
 }
 
 console.log(reverse('CodingMoney'))
